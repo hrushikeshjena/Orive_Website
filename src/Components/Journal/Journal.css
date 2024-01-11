@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+.journal-header{ 
+    background-image: url(../../assets/Journal.png);
+    background-position: center ;
+    height: 340px;
+}
+
+.home-about-dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.home-about-dot p{
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.journal-header h1{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.journal-litag ul{
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 900px;
+    font-size: 19px;
+    margin-left: 10px;
+    text-align: center;   
+}
+
+.journal-litag span{
+    color: #F76C24;
+    size: 10px;
+    list-style-type: circle;
+}
+
+.journal-litag li img{
+    text-align: center;
+    padding-left: 17px;
+}
+
+.journal-blog{
+    display: flex;
+}
+
+.journal-description{
+    padding: 60px 30px 20px 70px;
+    background-color: #ffffff;
+    width: 600px;
+}
+
+.journal-description h2{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    font-weight: 500px;
+}
+
+
+
+.button-machine button{
+    cursor: pointer;
+    padding: 8px 22px;
+    border-radius: 4px;
+    background-color: #FFEFE7;
+    color: #FE5D14;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.journal-image{
+    padding-top: 50px;
+    border-radius: 10px 20px; 
+    padding-left: 80px;
+    height: 400px;
+}
+
+.journal-image img{
+    width: 500px;
+    border-radius: 9px 9px 9px 9px;
+}
+
+.button-readblog button{
+    cursor: pointer;
+    align-items: center;
+    padding: 8px 22px;
+    border-radius: 5px;
+    background-color: #F76C24;
+    color: #fff6f6;
+    border: none;
+    font-weight: 510;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    width: 170px;
+    height: 45px;
+}
+
+.button-readblog {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 330px;
+}
+
+.arrow-top{
+    position: relative;
+    top: 2.5px;
+    left: 2px;
+}
+
+.person-clander{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20px;
+    margin-top: 20px;
+    gap:20px;
+}
+
+.person,.calender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #61657E;
+    gap:7px;
+}
+

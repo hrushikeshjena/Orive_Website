@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&family=Poppins:wght@100&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;300;600&family=Roboto:wght@300&family=Young+Serif&display=swap');
+.banner-i{
+    display: inline-flex;
+    margin: 100px 80px  110px 110px;
+}
+
+.test-w h6{
+    font-size: 15px;
+    color: #ff4500;
+    font-weight: 600; 
+    font-family: 'Poppins', sans-serif;
+}
+.test-w h2{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.test-w p{
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+.test-w p span{
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: justify;
+    line-height: 28px;
+    text-decoration: none;
+}
+.symboll{
+    margin-top: 30px;
+}
+.dir{
+    display: flex;
+    margin-top: 20px ;
+}
+.dir-d{
+    margin: 20px 20px;
+}
+.direct{
+    margin-top: 14px;
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;300;600&family=Roboto:wght@300&family=Young+Serif&display=swap');
+.about-company{
+    display: inline-flex;
+    margin: 200px 80px  110px 110px;
+}
+.text-content{
+ margin-left: 35px;
+}
+.text-content h6{
+    font-size: 15px;
+    color: #ff4500;
+    font-weight: 600; 
+    font-family: 'Poppins', sans-serif;
+}
+.text-content h2{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.text-content p{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.sup-ex{
+    margin-top: 50px;
+    display: inline-flex;
+}
+
+.sup-ex h2{
+   font-size: 15px;
+}
+.support{
+    margin: 20px;
+}
+.support p{
+    font-size: 12px;
+}
+.experience{
+    margin-top: 20px;
+}
+
+.experience p{
+    font-size: 12px;
+}
+.quality{
+    height: 65px;
+    width: 140px;
+    margin: 20px 10px;
+}
+.customerservices{
+    height: 60px;
+    width: 120px;
+    margin: 28px 10px;
+}
+.learn-more {
+    margin-top: 20px;
+}
+
+.learn-more button{
+    cursor: pointer;
+    padding: 8px 22px;
+    border-radius: 4px;
+    background-color: #ff4500;
+    color: #fff6f6;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}

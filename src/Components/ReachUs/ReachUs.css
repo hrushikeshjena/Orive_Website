@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;300;600&family=Roboto:wght@300&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&family=Poppins:wght@100&display=swap');
+.Bann-y {
+    background-image: url("../../assets/Sectio-n.png");
+    background-position: center;
+    height: 500px;
+}
+.who-y ul{
+    text-align: center;
+    color:#fff6f6;
+    font-size: 55px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .journal-blog-y{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+}
+
+.button-machine{
+  margin-left: 10px;
+}
+
+.button-machine button{
+  cursor: pointer;
+  padding: 8px 22px;
+  border-radius: 4px;
+  background-color: #FFEFE7;
+  color: #FE5D14;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.journal-image{
+  padding-top: 40px;
+  border-radius: 10px 20px; 
+  padding-left: 80px;
+}
+
+
+
+  
+.li{
+    color: white;
+
+  }
+  ul {
+    list-style-type: none;
+    padding:10px;
+  }
+
+.who-y h1{
+    text-align: center;
+    color:#fff6f6;
+    font-family: 'Poppins', sans-serif;
+     font-weight: 700; 
+    line-height: 64px;
+    font-size: 55px;
+    padding-top: 150px;
+}
+
+.home-about-dot-y {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.home-about-dot-y p{
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-top: 13px;
+}
+
+.home-about-dot-y img {
+    width: 6px;
+    height: 6px;
+    margin-top: 13px;
+}
+
+
+.sub-w{
+    display: flex;
+}
+.sub-w p {
+    color:#fff6f6;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+
+.form-y{
+ width: 40%;
+
+}
+
+
+.contactRight{
+  padding: 50px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  font-family: 'Poppins', sans-serif;
+
+}
+.contactTxt{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.contactTitle{
+  color: rgba(247, 108, 36, 1);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.contactDesc{
+  color: rgba(119, 120, 136, 1);
+  font-size: 15px;
+  margin-right: 30px;
+  line-height: 40px;
+}
+
+.midcontact img{
+  height: 530px;
+  margin-top: 100px;
+}
+.form-y{
+  margin-left: 150px;
+  margin-top: 110px;
+
+ 
+
+}
+.form-y form {
+background-color: #ffffff;
+width: 380px;
+height: 520px;
+box-shadow: 2px 3px 15px rgb(126, 124, 124);
+
+
+}
+.form-iy{
+text-align: center;
+padding-top: 40px;
+
+}
+
+.form-iy h1{
+color: #000000;
+font-family: 'Poppins', sans-serif;
+font-weight:bold;
+
+
+}
+.form-m{
+margin-top: 30px;
+height: 30px;
+display: block;
+text-align: center;
+
+}
+
+.form-m input{
+padding: 6px;
+width: 300px;
+height: 50px;  
+font-family: 'Poppins', sans-serif;
+}
+.form-m select{
+padding: 6px;
+width: 300px;
+height: 50px;  
+font-family: 'Poppins', sans-serif;
+}
+.form-m option{
+font-family:'Poppins', sans-serif;
+}
+
+
+
+.button-sub{
+margin-top: 70px;
+}
+
+.button-sub button{
+cursor: pointer;
+padding: 8px 22px;
+border-radius: 4px;
+background-color: #ff4500;
+color: #fff6f6;
+border: none;
+width: 300px;
+font-family: 'Poppins', sans-serif;
+}
