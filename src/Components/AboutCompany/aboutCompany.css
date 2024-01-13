@@ -1,68 +1,195 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;300;600&family=Roboto:wght@300&family=Young+Serif&display=swap');
-.about-company{
-    display: inline-flex;
-    margin: 200px 80px  110px 110px;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;300;600&family=Roboto:wght@300&family=Young+Serif&display=swap");
+.about-company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
-.text-content{
- margin-left: 35px;
+.text-content {
+  margin-left: 35px;
 }
-.text-content h6{
-    font-size: 15px;
-    color: #ff4500;
-    font-weight: 600; 
-    font-family: 'Poppins', sans-serif;
+.about-img {
+  height: 35rem;
+  margin: 0 0 0 6rem;
 }
-.text-content h2{
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-
+.text-content {
+  margin: 0 6rem;
+  padding: 0 2rem;
 }
-.text-content p{
-    font-family: 'Poppins', sans-serif;
-    text-align: justify;
+.text-content h6 {
+  font-size: 15px;
+  color: rgba(247, 108, 36, 1);
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
 }
-
-.sup-ex{
-    margin-top: 50px;
-    display: inline-flex;
+.text-content h2 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
 }
-
-.sup-ex h2{
-   font-size: 15px;
-}
-.support{
-    margin: 20px;
-}
-.support p{
-    font-size: 12px;
-}
-.experience{
-    margin-top: 20px;
+.text-content p {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
 }
 
-.experience p{
-    font-size: 12px;
+.sup-ex {
+  margin-top: 50px;
+  display: inline-flex;
 }
-.quality{
-    height: 65px;
-    width: 140px;
-    margin: 20px 10px;
+
+.sup-ex h2 {
+  font-size: 15px;
 }
-.customerservices{
-    height: 60px;
-    width: 120px;
-    margin: 28px 10px;
+.support {
+  margin: 20px;
+}
+.support p {
+  font-size: 12px;
+}
+.experience {
+  margin-top: 20px;
+}
+
+.experience p {
+  font-size: 12px;
+}
+.quality {
+  height: 65px;
+  margin: 20px 10px;
+}
+.customerservices {
+  height: 60px;
+  margin: 28px 10px;
 }
 .learn-more {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
-.learn-more button{
-    cursor: pointer;
-    padding: 8px 22px;
-    border-radius: 4px;
-    background-color: #ff4500;
-    color: #fff6f6;
-    border: none;
-    font-family: 'Poppins', sans-serif;
+.learn-more button {
+  cursor: pointer;
+  padding: 8px 22px;
+  border-radius: 4px;
+  background-color: rgba(247, 108, 36, 1);
+  color: #fff6f6;
+  font-weight: 600;
+  border: none;
+  font-family: "Poppins", sans-serif;
 }
+@media (max-width: 1360px) {
+  .about-company {
+    transform: scale(0.9);
+  }
+}
+@media (max-width: 1272px) {
+  .about-company {
+    transform: scale(1);
+  }
+  .about-img {
+    height: 30rem;
+  }
+  .text-content {
+    transform: scale(0.9);
+  }
+}
+@media (max-width: 1242px) {
+  .about-img {
+    height: 28rem;
+  }
+  .text-content {
+    transform: scale(0.8);
+  }
+  .text-content h2 {
+    line-height: 53 px;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 1172px) {
+  .about-img {
+    height: 28rem;
+  }
+  .text-content {
+    transform: scale(0.8);
+    margin: 0 1rem;
+    padding: 0 0;
+  }
+  .text-content h2 {
+    line-height: 53 px;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 1040px) {
+  .about-img {
+    height: 25rem;
+    margin: 0 -2rem 0 2rem;
+  }
+  .text-content {
+    transform: scale(0.8);
+    margin: 0 1rem;
+    padding: 0 0;
+  }
+  .text-content h2 {
+    line-height: 53 px;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 884px) {
+  .about-company {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .about-img {
+    height: 30rem;
+    margin: 0;
+    margin-bottom: 5rem;
+    padding: 0;
+  }
+  .text-content {
+    transform: scale(0.8);
+    /* margin: 0; */
+    padding: 0;
+  }
+  .text-content h2 {
+    line-height: 53 px;
+    margin: 0 0;
+  }
+  .center-ta-b-img {
+    text-align: center;
+  }
+  #center-ta-b-img {
+    text-align: center;
+  }
+  .support {
+    margin: 0;
+  }
+  .quality {
+    height: 65px;
+    margin: 0;
+  }
+  .customerservices {
+    height: 60px;
+    margin: 0;
+  }
+}
+@media (max-width: 560px) {
+  .about-img {
+    height: 25rem;
+    margin: 0;
+    margin-bottom: 5rem;
+  }
+  .text-content {
+    transform: scale(0.8);
+    padding: 0 0;
+  }
+}
+@media (max-width: 465px) {
+    .about-img {
+      height: 20rem;
+      margin: 0;
+      margin-bottom: 5rem;
+    }
+    .text-content {
+      transform: scale(0.8);
+      padding: 0 0;
+      width: 400px;
+      margin-right: 35px;
+    }
+  }

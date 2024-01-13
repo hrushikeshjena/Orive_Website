@@ -1,9 +1,12 @@
 .main-p{
     background-image: url("../../assets/Gro-up.png"); 
-    padding: 30px;
-    margin-top: 10px;
+    height: 100vh;
 }
-
+.text-card-home{
+  padding: 100px 0 75px 0;
+  width: auto;
+  margin: 0 20px;
+}
 .main-p h {
 text-align: center;
 color: chocolate;
@@ -24,6 +27,11 @@ color: chocolate;
     height:250px;
      background-image: url("C:\Users\sonuh\OneDrive\Desktop\Orive Website\Website\src\assets\Group 32 (1).png"); 
      background-color: white; 
+ }
+ .cards-home-all{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
  }
   .card img {
     height: 100%;
@@ -81,4 +89,20 @@ color: chocolate;
     cursor: pointer;
     border: none;
   }
-  
+  @media(max-width:996px) {
+    .main-p{
+      height: auto;
+      padding-bottom: 100px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  @media(max-width:664px) {
+    .main-p{
+      padding-bottom: 100px;
+    }
+    .text-card-home{
+      padding: 100px 0 40px 0;
+      margin: 0 30px;
+    }
+  }

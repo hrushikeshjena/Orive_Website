@@ -1,12 +1,24 @@
-.col{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.middle-card-blog{
-    margin: 0 50px;
+.App {
+  background-color: rgb(230, 230, 230);
+  min-height: 100vh;
 }
-.App{
-    background-color: 
-    rgb(230, 230, 230);
+.our-blog {
+  text-align: center;
+  color: rgba(247, 108, 36, 1);
+}
+.our-blog-latest {
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 2rem;
+  color: rgba(47, 48, 69, 1);
+  text-align: center;
+}
+.text-blog-card-home {
+  padding: 50px 0;
 }
