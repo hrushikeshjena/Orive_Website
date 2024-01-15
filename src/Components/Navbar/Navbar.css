@@ -1,218 +1,209 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;300;600&family=Roboto:wght@300&family=Young+Serif&display=swap');
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Titillium Web", sans-serif;
-}
-
-:root {
-  --mainColor: #fff6f6;
-  --mainColorLight: #5767aa;
-  --secondaryColor: #f76c24;
-  --textColor: #2f3045;
-}
-  
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&family=Permanent+Marker&family=Poppins:wght@300&display=swap');
+.main-navbar-nav{
   height: 80px;
-  padding: 0 2rem;
-  background-color: var(--mainColor);
-  color: var(--textColor);
-  overflow: hidden;
 }
-
-.logo {
-  width: 310px;
-  cursor: pointer;
+.logo{
+    width: 350px;
+    cursor: pointer;
 }
-nav{
-    margin-left: 170px;
-}
-
-nav a {
-  margin: 0 1rem;
-  color: var(--textColor);
-  text-decoration: none;
-  font-weight: 600;
-}
-
-nav a:hover {
-  color: var(--secondaryColor);
-}
-
-header .nav-btn {
-  padding: 5px;
-  cursor: pointer;
-  background: transparent;
-  border: none;
-  outline: none;
-  color: var(--textColor);
-  visibility: hidden;
-  opacity: 0;
-  font-size: 1.8rem;
-}
-
-header div,
-nav {
+.navbar-elements{
   display: flex;
-  align-items: center;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
 }
 
 .contact-num {
-  display: flex;
-  align-items: center;
-  padding: 8px 16px;    
+    display: flex;
+    align-items: center;
 }
-.contact-img {
-  width: 25px;
-  cursor: pointer;
-  margin: 10px;
+.contact-img{
+    height: 30px;
+    cursor: pointer;
+    margin: 0 10px;
 }
 .phoneNo{
-display: flex;
-flex-direction: column;
-}
-
-.phoneNo p {
-  font-size: 14px;
-  font-weight: 600;
   cursor: pointer;
-  font-family: "Poppins", sans-serif;
 }
-.call {
-  color: var(--secondaryColor);
+.number-ph{
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
 }
-.button-connect button{
+.call{
+  color: rgba(247, 108, 36, 1);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.nav-item{
+  margin-top: 4px;
+}
+.all-nav-elemnt{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.nav-link{
+  color: black;
+}
+.nav-link:hover{
+  color: rgba(247, 108, 36, 1);
+}
+.lets-conn-btn{
     cursor: pointer;
     padding: 8px 22px;
     border-radius: 4px;
-    background-color: var(--secondaryColor);
-    color: var(--mainColor);
+    background-color: rgba(247, 108, 36, 1);
+    color: #fff6f6;
     border: none;
     font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    margin: 3px 0 0 15px;
 }
-   
-.button-connect button:hover{
-    background-color: var(--mainColor);
-    color: var(--textColor);
-    font-weight: 600;
-    border: 1px solid;
-    border-color: var(--secondaryColor);
+.lets-conn-btn:hover{
+  background-color: rgba(169, 51, 46, 1);
 }
 
-@media only screen and (max-width: 1024px) {
-    header .nav-btn {
-      visibility: visible;
-      opacity: 1;
-    }
-  
-    header nav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 1.5rem;
-      background-color: var(--mainColor);
-      transform: translateY(-100%);
-      transition: transform 0.5s ease-in-out;
-    }
-  
-    header .responsive_nav {
-      transform: translateY(0);
-    }
-  
-    nav .nav-close-btn {
-      position: absolute;
-      top: 2rem;
-      right: 2rem;
-      cursor: pointer;
-      font-size: 1.5rem;
-    }
-  
-    nav a {
-      font-size: 1.5rem;
-      margin: 0.5rem 0;
-    }
-  
-    nav a:hover {
-      color: var(--secondaryColor);
-    }
+.down-arrow{
+  font-size: 20px;
+  margin-bottom: 2px;
+  margin-left: -3px;
+}
+.dropdown {
+    display: inline-block;
   }
 
 
-/* @media only screen and (max-width: 1024px) {
-  header .nav-btn {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  header nav {
-    position: fixed;
-    top: -100vh;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-    background-color: var(--mainColor);
-    transition: 1s;
-  }
-
-  header .responsive_nav {
-    transform: translateY(100vh);
-  }
-
-  nav .nav-close-btn {
+  .dropdown-content {
+    display: none;   
     position: absolute;
-    top: 2rem;
-    right: 2rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 200px;
+    height: auto;
+    line-height: 20px;
   }
-
-  nav a {
-    font-size: 1.5rem;
+  .dropdown-content li:hover {
+    background-color: #ededed;
   }
-} */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+    border: none;
+  }
+  @media(max-width: 1210px) {   
+    .logo{
+      width: 300px;
+    }
+  }
+  @media(max-width: 1160px) {   
+    .logo{
+      width: 250px;
+    }
+  }
+  @media(max-width: 1110px) {   
+    .logo{
+      width: 250px;
+    }
+    .all-nav-elemnt{
+      font-size: 0.8rem;
+    }
+    .button-connect{
+      transform: scale(0.85);
+    }
+    .contact-num{
+      transform: scale(0.85);
+    }
+  }
+  @media(max-width: 1069px) {   
+    .logo{
+      width: 250px;
+    }
+    .all-nav-elemnt{
+      font-size: 0.7rem;
+    }
+    .button-connect{
+      transform: scale(0.75);
+    }
+    .contact-num{
+      transform: scale(0.75);
+    }
+  }
+  @media(max-width: 1028px) {   
+    .logo{
+      width: 220px;
+    }
+    .all-nav-elemnt{
+      font-size: 0.7rem;
+    }
+    .button-connect{
+      transform: scale(0.75);
+    }
+    .contact-num{
+      transform: scale(0.75);
+    }
+  }
+  @media(max-width: 998px) {   
+    .logo{
+      width: 220px;
+    }
+    .all-nav-elemnt{
+      font-size: 0.65rem;
+    }
+    .button-connect{
+      transform: scale(0.70);
+    }
+    .contact-num{
+      transform: scale(0.70);
+    }
+  }
+  @media(max-width:992px){
+    .navbar-right-content{
+      text-align: center;
+      background-color: white;
+    }
+    .contact-num{
+      margin: auto;
+      padding: 10px 0;
+    }
+    .button-connect{
+      margin-bottom: 10px;
+    }
+    .dropdown-content{
+      margin-left: 130px;
+    }
+    @media(max-width: 1028px) {   
+      .main-navbar-nav{
+        height: auto;
+      }
+      .logo{
+        width: 350px;
+      }
+      .all-nav-elemnt{
+        font-size: 0.9rem;
+      }
+      .button-connect{
+        transform: scale(1);
+      }
+      .contact-num{
+        transform: scale(1);
+      }
+    }
+  }
+  @media(max-width:675px){
+    .logo{
+      width: 300px;
+    }
+  }
+  @media(max-width:400px){
+    .logo{
+      width: 250px;
+    }
+  }

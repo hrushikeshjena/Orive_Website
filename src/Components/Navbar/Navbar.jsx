@@ -1,52 +1,94 @@
-import { useRef } from "react";
-import Logo from "../../assets/Logo.png"
-import phone from "../../assets/phone.png"
-import { FaBars } from "react-icons/fa";
-import "../Navbar/Navbar.css";
+import "./Navbar.css";
+import Logo from "../../assets/logo.png";
+import phone from "../../assets/phone.png";
+import { Link } from "react-router-dom";
+import { MdKeyboardArrowDown } from "react-icons/md";
 
-function Navbar() {
-  const navRef = useRef();
-
-  const showNavbar = () => {
-    navRef.current.classList.toggle("responsive_nav");
-  };
-
+const Navbar = () => {
   return (
-    <header>
-		<img src={Logo} alt="" className="logo"></img>
-      <nav ref={navRef}>
-        <a href="/">Adobe Leaf</a>
-        <a href="/who">Who we are</a>
-        <div className="dropdown">
-           <a> Resources
-          <div class="dropdown-content">
-            <a href="#">Services</a>
-            <a href="#">Products</a>
+    <>
+      <nav className="navbar navbar-expand-lg bg-body-tertiary main-navbar-nav">
+        <div className="container-fluid">
+          <Link to="/">
+            <img src={Logo} alt="" className="logo" />
+          </Link>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <div className="navbar-right-content">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0 all-nav-elemnt">
+                <li className="nav-item hii">
+                  <Link className="nav-link" to={"/"}>
+                    Adobe Leaf
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to={"/who"}>
+                    Who We Are
+                  </Link>
+                </li>
+                <li className="dropdown nav-item">
+                  <div className="nav-link cursor-pointer">
+                    Services <MdKeyboardArrowDown className="down-arrow"/>
+                  </div>
+                  <ul className="dropdown-content">
+                    <Link to="/ricemill" className="nav-link">
+                      <li>Rice Mill</li>
+                    </Link>
+                    <Link to="/hrms" className="nav-link">
+                      <li>HRMS</li>
+                    </Link>
+                    <Link to="/erp" className="nav-link">
+                      <li>ERP</li>
+                    </Link>
+                    <Link to="/ricemill" className="nav-link">
+                      <li>CRM</li>
+                    </Link>
+                    <Link to="/ricemill" className="nav-link">
+                      <li>ERP</li>
+                    </Link>
+                  </ul>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to={"/journal"}>
+                    Journals
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to={"/reachus"}>
+                    Reach Us
+                  </Link>
+                </li>
+                <div className="contact-num">
+                  <img src={phone} alt="" className="contact-img" />
+                  <div className="phoneNo" href="tel:+91-9777798142">
+                    <a className="number-ph" href="tel:+91-9777798142">+91-9777798142</a><br />
+                    <a className="call" href="tel:+91-9777798142">Make a Call</a>
+                  </div>
+                </div>
+
+                <div className="button-connect" type="button">
+                  <button className="lets-conn-btn">Let's Connect! </button>
+                </div>
+              </ul>
+            </div>
           </div>
-		  </a>
         </div>
-        <a href="/journal">Journal</a>
-        <a href="/reachus">Reach Us</a>
-      
-
-	  <div className="contact-num">
-        <img src={phone} alt="" className="contact-img" />
-        <div className="phoneNo">
-          <p>+91 9777798142</p>
-          <p className="call">Make a Call</p>
-        </div>
-      </div>
-
-	  <div className="button-connect" type="button">
-        <button>Let's Connect!</button>
-      </div>
-	</nav>
-
-      <button className="nav-btn" onClick={showNavbar}>
-        <FaBars />
-      </button>
-    </header>
+      </nav>
+    </>
   );
-}
+};
 
 export default Navbar;

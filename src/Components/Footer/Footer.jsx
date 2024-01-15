@@ -15,7 +15,7 @@ function Footer() {
         <div className="footerHead">Contact info</div>
         <div>
           <div className="footerContentSet">
-            <div className="footerHighlightTextOne">Address:</div>
+            <div className="footerHighlightTextOne" style={{marginRight:'10px'}}>Address:</div>
             <div className="footerNormalText">
               DCB-014, DLF Cyber City Rd, Chandaka Industrial Estate, Patia,
               Bhubaneswar, Odisha 751024,India
@@ -23,11 +23,11 @@ function Footer() {
           </div>
           <div className="footerContentSet">
             <div className="footerHighlightTextOne">Phone:</div>
-            <div className="footerNormalText">+91-9777798142</div>
+            <a href="tel:9777798142" className="footerNormalText">+91-9777798142</a>
           </div>
           <div className="footerContentSet">
-            <div className="footerHighlightTextOne">Email:</div>
-            <div className="footerNormalText footerEmail">orivesolutions@gmail.com</div>
+            <div className="footerHighlightTextOne" style={{marginRight:'10px'}}>Email:</div>
+            <a href='mailto:orivesolutions@gmail.com' className="footerNormalText footerEmail">orivesolutions@gmail.com</a>
           </div>
         </div>
         <div className="inputContainer">
@@ -58,7 +58,7 @@ function Footer() {
       </div>
       <div className="footerSubContainer">
         <div>
-        <img src={logo} alt="" width={200} height={50}/>
+        <img src={logo} alt="" className='footer-logo'/>
         </div>
         <div>
           <div className="footerNormalText">
@@ -67,7 +67,7 @@ function Footer() {
             businesses, and enhance lives through cutting-edge IT solutions.
             Your Vision, Our Expertise, Together we Achieve Limitless Potential
           </div>
-          <div className="footerContentSet">
+          <div className="footerContentSet-logo">
             <div className="footerHighlightText">Follow us:</div>
             <div className="footerSocialIconsContainer">
                 <div className="footerSocialIcons">
@@ -88,7 +88,7 @@ function Footer() {
       </div>
     </div>
     <hr className="hrBorder"/>
-    <div>Copyright <FaRegCopyright/> 2023 All Rights Reserved by <span className="footerHighlightText">Orive Solutions</span></div>
+    <div className='footer-foot'>Copyright <FaRegCopyright/> 2023 All Rights Reserved by <a href='mailto:orivesolutions@gmail.com' className="footerHighlightText">Orive Solutions</a></div>
     <div/>
     </div>
 
