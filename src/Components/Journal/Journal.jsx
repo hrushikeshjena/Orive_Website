@@ -17,7 +17,7 @@ const Journal = () => {
           <div className='journal-litag'>
             <ul>
               <li>Home<span><img src={Dotted} alt="Dotted Image"></img></span></li>
-              <span><li>Journals</li></span>
+              <li style={{ color:"#F76C24"}}>Journals</li>
             </ul>
           </div>
         </div>
@@ -41,11 +41,11 @@ const Journal = () => {
             </div>
             <div className="button-readblog" type="button">
               <button>
-                Read Blog <img src={ArrowTop} className="arrow-top"></img>
+                <a href="/journalDetails" style={{textDecoration:'none', color:'white'}}>Read Blog</a> <img src={ArrowTop} className="arrow-top"></img>
               </button>
             </div>
           </div>
-          <div className='journal-image'>
+          <div className="img-journal-bg" >
             <img src={JournalImage} alt="Journal Image"></img>
           </div>
         </div>

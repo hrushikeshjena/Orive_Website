@@ -20,45 +20,14 @@
   font-size: 15px;
   color: rgba(247, 108, 36, 1);
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
 }
 .text-content h2 {
   font-size: 40px;
-  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 .text-content p {
-  font-family: "Poppins", sans-serif;
   text-align: justify;
-}
 
-.sup-ex {
-  margin-top: 50px;
-  display: inline-flex;
-}
-
-.sup-ex h2 {
-  font-size: 15px;
-}
-.support {
-  margin: 20px;
-}
-.support p {
-  font-size: 12px;
-}
-.experience {
-  margin-top: 20px;
-}
-
-.experience p {
-  font-size: 12px;
-}
-.quality {
-  height: 65px;
-  margin: 20px 10px;
-}
-.customerservices {
-  height: 60px;
-  margin: 28px 10px;
 }
 .learn-more {
   margin-top: 20px;
@@ -73,6 +42,33 @@
   font-weight: 600;
   border: none;
   font-family: "Poppins", sans-serif;
+}
+.sup-ex{
+  display: flex;
+}
+.customerservices,.quality{
+  height: 60px;
+  margin-right: 20px;
+}
+.support h2{
+  font-size: 1rem;
+  font-weight: 700;
+}
+.support p{
+  font-size: 0.85rem;
+}
+.experience p{
+  font-size: 0.85rem;
+}
+.experience  h2{
+  font-size: 1rem;
+  font-weight: 700;
+}
+.card-learn-1, .card-learn-2{
+  width: 45%;
+  display: flex;
+  align-items: top;
+  margin-right: 20px;
 }
 @media (max-width: 1360px) {
   .about-company {
@@ -144,7 +140,6 @@
   }
   .text-content {
     transform: scale(0.8);
-    /* margin: 0; */
     padding: 0;
   }
   .text-content h2 {
@@ -156,17 +151,6 @@
   }
   #center-ta-b-img {
     text-align: center;
-  }
-  .support {
-    margin: 0;
-  }
-  .quality {
-    height: 65px;
-    margin: 0;
-  }
-  .customerservices {
-    height: 60px;
-    margin: 0;
   }
 }
 @media (max-width: 560px) {

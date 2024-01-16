@@ -6,11 +6,10 @@
     align-items: center;
     background-image: url("../../assets/backgroundImage.png");
     background-position: center;
-    height: 600px;
+    height: 90vh;
 }
 .arrow-top{
     position: relative;
-    top: 2.5px;
     left: 2px;
 }
 .bigheader{
@@ -29,16 +28,12 @@
 .paragraph {
     text-align: center;
     color:#fff6f6;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 200;
+    font-weight: 500;
     font-size: 17px;
-    line-height: 30px;
+    line-height: 28px;
     padding-top: 25px;
+    width: 75vw;
 }
-.paragraph p{
-    font-weight:lighter;
-}
-
 .button-consultation button{
     cursor: pointer;
     align-items: center;
@@ -81,55 +76,61 @@
         margin-left: 30px;
     }
 }
-@media(max-width:718px){
-    .bigheader{
-        margin: 0 50px 0 20px;
-    }
-    .all-logo-side{
-        margin-left: 30px;
-    }
-}
-@media(max-width:460px){
-    .bigheader{
-        margin: 0 40px 0 10px;
-    }
-    .paragraph {
-        font-size: 15px;
-    }
-    .bigheader h1{
-        font-weight: 700;
-        line-height: 64px;
-        font-size: 45px;
-    }
-    .all-logo-side{
-        margin-left: 30px;
-    }
-}
-@media(max-width:411px){
-    .bigheader{
-        margin: 0 40px 0 10px;
-        width: 250px;
-    }
-    .paragraph {
-        font-size: 14px;
-    }
-    .bigheader h1{
-        font-weight: 700;
-        line-height: 55px;
-        font-size: 35px;
-    }
-    .button-consultation button{
-        font-size: 13px;
-        width: 250px;
-    }
-    .arrow-top{
+@media(max-width:1243px){
+    .top-page-cards{
         transform: scale(0.85);
     }
+}
+@media(max-width:1077px){
     .all-logo-side{
-        margin-left: 10px;
+        display: none;
     }
-    .side-logo-main{
-        height: 35px;
-        width: 35px;
+    .bigheader{
+        margin: 0;
+    }
+    .paragraph{
+        margin: auto;
+    }
+    .bigheader h1{
+        margin: 0 50px;
+    }
+}
+@media(max-width:1243px){
+    .top-page-cards{
+        display: none;
+    }
+}
+@media(max-width:549px){
+    .all-logo-side{
+        display: none;
+    }
+    .bigheader{
+        margin: 0;
+    }
+    .paragraph{
+        margin: auto;
+    }
+    .bigheader h1{
+        margin: 0 50px;
+    }
+    .mainfile{
+        height: auto;
+        padding: 80px 0;
+    }
+}
+@media(max-width:432px){
+    .top-main-page{
+        transform: scale(0.85);
+    }
+    .mainfile{
+        padding: 0;
+    }
+}
+@media(max-width:368px){
+    .top-main-page{
+        transform: scale(0.8);
+    }
+    .mainfile{
+        padding: 0;
     }
 }

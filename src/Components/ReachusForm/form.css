@@ -1,0 +1,110 @@
+
+
+ 
+ .form-mir{
+        margin-left: 150px;
+     
+       
+      
+ }
+ .form-r form {
+     background-color: #ffffff;
+     width: 600px;
+     height:950px;
+     box-shadow: 2px 3px 15px rgb(126, 124, 124);
+    }
+ .form-mir h1{
+     text-align: center;
+     padding-top: 50px;  
+ }
+ 
+ .form-mir h1{
+     color: #000000;
+     font-family: 'Poppins', sans-serif;
+     font-weight:bold;
+ 
+     
+ } 
+ .form-ir{
+     margin-top: 50px;
+     height: 30px;
+     display: block;
+     text-align: start;
+     margin-left: 40px;
+     
+ }
+ 
+ .form-ir input{
+     padding: 6px;
+     width: 400px;
+     height: 50px;  
+     font-family: 'Poppins', sans-serif;
+     margin-left: 40px;
+ }
+ .form-ir select{
+     padding: 6px;
+     width: 400px;
+     height: 50px;  
+     font-family: 'Poppins', sans-serif;
+ }
+ .form-ir option{
+    font-family: 'Poppins', sans-serif;
+ }
+
+ .form-ir label{
+    margin-right: 30px;
+    text-align: start;
+    justify-self: flex-start;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.input{
+    margin-left: 80px;
+    margin-top: -30px;
+}
+ 
+ 
+ .button-sub{
+     margin-top: 70px;
+     text-align: center;
+ }
+ 
+ .button-sub button{
+     cursor: pointer;
+     padding: 8px 22px;
+     border-radius: 4px;
+     background-color: #ff4500;
+     color: #fff6f6;
+     border: none;
+     width: 530px;
+     font-family: 'Poppins', sans-serif;
+ }
+
+
+  
+ .form-ir textarea{
+     height: 80px;
+     width: 400px;
+     font-family: 'Poppins', sans-serif;
+ }
+ .input textarea{
+    margin-left: 40px;
+ }
+ .input select{
+    margin-left: 40px;
+ }
+ 
+ .input-s {
+    margin-left: 165px;
+    margin-top: -30px;
+ }
+ .input-s label{
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+ }
+ .input-s label:hover{
+    color: #ff4500;
+ }

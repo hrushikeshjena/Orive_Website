@@ -199,3 +199,88 @@ border: none;
 width: 300px;
 font-family: 'Poppins', sans-serif;
 }
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .midcontact{
+    display: none;
+  }
+  .contactRight img{
+    display: none;
+  }
+  .contactRight{
+    width: 100%;
+    display: flex;
+    
+  
+  }
+  .contactTxt{
+    position: relative;
+    top: 500px;
+    right: 150px;
+
+  }
+
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+  .midcontact{
+    display: none;
+  }
+  .contactRight img{
+    display: none;
+  }
+  .contactRight{
+    width: 100%;
+    display: flex;
+    
+  
+  }
+  .contactTxt{
+    position: relative;
+    top: 500px;
+    right: 250px;
+
+  }
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .midcontact{
+    display: none;
+  }
+  .contactRight img{
+    display: none;
+  }
+  .contactRight{
+    width: 100%;
+    display: flex;
+    
+  
+  }
+  .contactTxt{
+    position: relative;
+    top: 500px;
+    right: 150px;
+
+  }
+}
+
+@media (min-width: 100px) and (max-width: 300px) {
+  .midcontact{
+    display: none;
+  }
+  .contactRight img{
+    display: none;
+  }
+  .contactRight{
+    width: 100%;
+    display: flex;
+    
+  
+  }
+  .contactTxt{
+    position: relative;
+    top: 500px;
+    right: 10px;
+
+  }
+}

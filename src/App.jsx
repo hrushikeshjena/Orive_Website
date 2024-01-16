@@ -14,13 +14,14 @@ function App() {
 
   return (
     <>
+    {/* <Caro/> */}
     <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/who" element={<Who/>}/>
         <Route path="/journal" element={<Journal/>}/>
         <Route path="/reachus" element={<ReachUs/>}/>
-        <Route path="/journalD" element={<JournalDetails/>}/>
+        <Route path="/journalDetails" element={<JournalDetails/>}/>
         <Route path="/ricemill" element={<RiceMill/>}/>
         <Route path="/hrms" element={<HRM/>}/>
         <Route path="/erp" element={<ERP/>}/>

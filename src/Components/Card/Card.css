@@ -1,108 +1,151 @@
-.main-p{
-    background-image: url("../../assets/Gro-up.png"); 
-    height: 100vh;
+.swiper {
+  width: 80%;
+  height: 42%;
 }
-.text-card-home{
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-p {
+  background-image: url("../../assets/Gro-up.png");
+  height: 100vh;
+}
+.text-card-home {
   padding: 100px 0 75px 0;
   width: auto;
   margin: 0 20px;
 }
 .main-p h {
-text-align: center;
-color: chocolate;
+  text-align: center;
+  color: 
+  rgba(247, 108, 36, 1);
 }
 .main-p h2 {
   color: white;
   text-align: center;
+  font-weight: 600;
 }
 .card {
-  position: relative;
-    padding: 20px;
-  border: 1px solid #ddd;
-
-    margin: 16px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    height:250px;
-     background-image: url("C:\Users\sonuh\OneDrive\Desktop\Orive Website\Website\src\assets\Group 32 (1).png"); 
-     background-color: white; 
- }
- .cards-home-all{
+  padding: 20px;
+  cursor: pointer;
+  margin: 0 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 250px;
+}
+.cards-home-all {
+  /* display: flex;  */
+}
+#img-1-ci{
+  height: 100%;
+  border-radius: 8px;
+  position: absolute;
+  bottom: -1px;
+  right: -2.8px;
+}
+.or-arr{
+  height: 14px;
+}
+.arrow-div{
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.circle-arrow{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #c9c9c9;
+  display: flex;
+  align-items: center;
   justify-content: center;
- }
-  .card img {
-    height: 100%;
-    border-radius: 8px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+  margin-right: 7px;
+}
+.card-ka-side-img{
+  height: 100%;
+  border-radius: 8px;
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+}
+
+.card-content {
+  text-align: center;
+  width: 70%;
+  height: 60%;
+  /* color: white; */
+}
+
+.card h2 {
+  text-align: left;
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  color: #777888;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+}
+.read-more-container {
+  display: flex;
+  align-items: center;
+}
+
+.read-more-btn-arrow-circle {
+  width: 24px;
+  height: 24px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.arrow-circle::before {
+  content: "\2193";
+}
+
+.read-more-btn {
+  background-color: orangered;
+  color: #fff;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+}
+@media (max-width: 996px) {
+  .main-p {
+    height: auto;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  
-  .card-content {
-    text-align: center;
-   width:70%;
-   height:60%;
-   color:white;
+}
+@media (max-width: 664px) {
+  .main-p {
+    padding-bottom: 100px;
   }
-  
-  .card h2 {
-    text-align: left;
-    color:black;
-    font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 5px;
+  .text-card-home {
+    padding: 100px 0 40px 0;
+    margin: 0 30px;
   }
-  
-  .card p {
-    color:#777888;
-    text-align: left;
-    font-size: 14px;
-    font-weight: 400;
-  }
-  .read-more-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .read-more-btn-arrow-circle {
-    width: 24px;
-    height: 24px;
-    background-color:white;
-    border-radius: 50%; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px; 
-  }
-  
-  .arrow-circle::before {
-    content: '\2193'; 
-  }
-  
-  .read-more-btn {
-    background-color: orangered;
-    color: #fff;
-    padding: 8px 12px;
-    cursor: pointer;
-    border: none;
-  }
-  @media(max-width:996px) {
-    .main-p{
-      height: auto;
-      padding-bottom: 100px;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-  }
-  @media(max-width:664px) {
-    .main-p{
-      padding-bottom: 100px;
-    }
-    .text-card-home{
-      padding: 100px 0 40px 0;
-      margin: 0 30px;
-    }
-  }
+}

@@ -11,8 +11,7 @@ const Home = () => {
       <AboutCompany />
       <Card />
       <Main/>
-      <Quote />
-      
+      <Quote />``
       <Banner />
     </>
   );

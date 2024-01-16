@@ -20,9 +20,10 @@ const Journal = () => {
         <h1>Journals</h1>
         <div className='journal-litag'>
           <ul>
-            <li>Home<span><img src={Dotted} alt="Dotted Image"></img></span></li>
-            <span><li style={{color:"white"}}>Journals<span><img src={Dotted} alt="Dotted Image"></img></span></li></span>
-            <span><li>Journals Details</li></span>
+          <li>Home<span><img src={Dotted} alt="Dotted Image"></img></span></li>
+              <li>Journals<span><img src={Dotted} alt="Dotted Image"></img></span></li>
+              <li style={{color:"#F76C24"}}>Journal Details</li>
+           
           </ul>
         </div>
       </div>
@@ -50,9 +51,9 @@ const Journal = () => {
             </button>
           </div>
         </div>
-        <div className='journal-image'>
-          <img src={JournalImage} alt="Journal Image"></img>
-        </div>
+        <div className="img-journal-bg" >
+            <img src={JournalImage} alt="Journal Image"></img>
+          </div>
       </div>
 
       <div className="ourBlog">
