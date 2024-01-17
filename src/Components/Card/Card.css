@@ -132,6 +132,9 @@
   cursor: pointer;
   border: none;
 }
+.swipslide{
+  margin: 0 50px;
+}
 @media (max-width: 996px) {
   .main-p {
     height: auto;

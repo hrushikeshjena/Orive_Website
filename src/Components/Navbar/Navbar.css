@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&family=Permanent+Marker&family=Poppins:wght@300&display=swap');
 .main-navbar-nav{
   height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 .logo{
     width: 350px;

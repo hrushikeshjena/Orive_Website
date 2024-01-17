@@ -1,19 +1,18 @@
 import "./who.css";
-import "../../../Components/Banner/banner.css";
-import groupimg from "../../../assets/Group-p.png";
-import Symbol from "../../../assets/Symboll.png";
-import direc from "../../../assets/direct.png";
-import Team from "../../../assets/team-1.jpg.png";
-import Teams from "../../../assets/team-3.jpg.png";
-import Hand from "../../../assets/hand.png";
-import Tick from "../../../assets/Item.png";
-
-import grp from "../../../assets/grp-p.png";
-import peo from "../../../assets/div-p.png";
-import rate from "../../../assets/div-r.png";
-import Dot from "../../../assets/Ellips-e.png";
-import Mission from "../../../assets/missi.png";
-import arrow from "../../../assets/arrow-top.png";
+// import "../../../Components/Banner/banner.css";
+import groupimg from "../../assets/Group-p.png";
+import Symbol from "../../assets/Symboll.png";
+import direc from "../../assets/direct.png";
+import Team from "../../assets/team-1.jpg.png";
+import Teams from "../../assets/team-3.jpg.png";
+import Hand from "../../assets/hand.png";
+import Tick from "../../assets/Item.png";
+import grp from "../../assets/grp-p.png";
+import peo from "../../assets/div-p.png";
+import rate from "../../assets/div-r.png";
+import Dot from "../../assets/Ellips-e.png";
+import Mission from "../../assets/missi.png";
+import arrow from "../../assets/arrow-top.png";
 const Who = () => {
   return (
     <div>
@@ -69,14 +68,14 @@ const Who = () => {
           </div>
           <div className="button-get" type="button">
             <button>
-              {" "}
+              
               Get Started
               <img src={arrow} className="arrow-top" />
             </button>
           </div>
         </div>
 
-        <div className="">
+        <div className="bg-img">
           <img src={Mission} alt="" className="" />
         </div>
       </div>
@@ -127,13 +126,16 @@ const Who = () => {
           <h2>Shaping the Future of Digital Transformation</h2>
 
           <p>
-            At Orive Solutions, we envision a future where we are at the
+          <span>
+          At Orive Solutions, we envision a future where we are at the
             forefront of digital evolution, setting industry standards and
             pioneering transformative technologies. Our vision is to be the
             go-to partner for businesses seeking innovative and sustainable IT
             solutions. We aspire to lead the way in anticipating and meeting the
             ever-changing needs of our clients in the rapidly evolving digital
             landscape.
+          </span>
+           
           </p>
           <div className="dir-v">
             <img src={Tick} alt="" className="direct" />
@@ -155,15 +157,16 @@ const Who = () => {
               Continuously enhancing our offerings to provide unparalleled value
               to clients.
             </p>
-          </div>
+          </div> 
+          
         </div>
+       
+        
       </div>
       <div className="tea-m">
         <div className="team-s">
           <h6>OUR TEAM</h6>
-          <div>
-            <p> We are a team of IT services and technologies specialists</p>
-          </div>
+          <p> We are a team of IT services and Technologies pecialists</p>
 
           <div className="team-u">
             <img src={Team} alt="" />

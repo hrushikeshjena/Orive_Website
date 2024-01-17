@@ -66,6 +66,7 @@ const Journal = () => {
               <h4><span>1.</span>OpenAI</h4>
               <p>OpenAI comes from industry experts who want to bring AI to the masses. Its linked to the non-profit research company OpenAI, co-chaired by Elon Musk and Sam Altman, and sponsored by companies such as Amazon Web Services, Microsoft, and Infosys who are trying to make AI accessible—hence the name. Contributors discuss their collective efforts to promote and advance AI technologies through long-term research. It’s a valuable resource for anyone interested in the future of AI.</p>
             </li>
+            
             <li>
               <h4><span>2.</span>Distill</h4>
               <p>Managed by: Shan Carter, Chris Olah, and Arvind Satyanarayan
@@ -83,14 +84,16 @@ const Journal = () => {
               <p>A machine learning developer with several AI-related degrees, Jason intended his Machine Learning Mastery blog for new developers getting started in the field. He was once an amateur developer and wants to help others, imparting lessons learned during his professional journey and sharing the tools that helped him most. The blog, plus his email course and newsletter, accommodate any level of expertise.</p>
             </li>
             <li>
-
+            <h4><span>5.</span>FastML</h4>
               <p>Managed by:<span>  Zygmunt Zając</span></p>
               <p>FastML tackles interesting topics in machine learning with entertaining, easy to consume posts. It’s run by economist Zygmunt Zając, and is a go-to ML platform, tackling topics like overfitting, pointer networks, and chatbots, among others. If you’re frustrated by some of the existing ML papers that feel like you need a PhD in math to understand them, bookmark this blog.</p>
             </li>
+          
             <li>
               <h4><span>6.</span>AWS Machine Learning Blog</h4>
               <p>Amazon is heavily involved in ML, using algorithms in nearly all areas of its business to create leads. Algorithms suggest relevant products for customers in search results, recommend products based on recent purchases, and optimize faster product distribution and shipping from warehouses to customers. The blog features projects and guides that reveal industry strides to readers and covers ML uses in Amazon Web Services technology.</p>
             </li>
+           
           </ul>
         </div>
         <div className="ourBlog-from">

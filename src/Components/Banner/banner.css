@@ -4,24 +4,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
     padding: 0 5rem;
 }
 
 .test-w h6{
     font-size: 15px;
     color: #ff4500;
-    font-weight: 600; 
+    font-weight: 500; 
     font-family: 'Poppins', sans-serif;
 }
 .test-w h2{
     font-size: 40px;
+    font-weight: 700;
+    color: rgba(47, 48, 69, 1);
     font-family: 'Poppins', sans-serif;
 }
 .test-w p{
     font-size: 11px;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
+    color: rgba(97, 101, 126, 1);
 }
 .test-w p span{
     font-size: 18px;
@@ -31,7 +34,7 @@
     text-decoration: none;
 }
 .symboll{
-    margin-top: 30px;
+    padding: 30px 0;
 }
 .dir{
     display: flex;
@@ -44,4 +47,58 @@
     margin-top: 14px;
     width: 50px;
     height: 50px;
+}
+#carouselExampleInterval .carousel-control-prev-icon,
+#carouselExampleInterval .carousel-control-next-icon {
+    transform: scale(1.2);
+  filter: invert(100%);
+}
+#carouselExampleInterval .caro-btnn {
+  background-color: rgba(247, 108, 36, 1);
+}
+@media(max-width:1106px){
+    .testimonial{
+        width: 100vw;
+        height: 75vw;
+    }
+    .banner-i{
+        height: 100vh;
+    }
+    
+    .test-w h6{
+        font-size: 1.5vw;
+    }
+    .test-w h2{
+        font-size: 3.5vw;
+    }
+    .test-w p span{
+        font-size: 1.2vw;
+        line-height: 2.5vw;
+    }
+    .direct{
+        width: 4.5vw;
+        height: 4.5vw;
+    }
+    .Symboll{
+        height: 4vw;
+        width: 4vw;
+    }
+    .fw-bold{
+        font-size: 2vw;
+    }
+    .caro-img-side{
+        height: 38vw;
+    }
+    .testimonial{
+        height: auto;
+    }
+    .banner-i{
+        height: auto;
+    }
+    .test-w p{
+        font-size: 1vw;
+        font-family: 'Poppins', sans-serif;
+        text-align: justify;
+        color: rgba(97, 101, 126, 1);
+    }
 }

@@ -2,13 +2,14 @@ import { Routes, Route} from "react-router-dom";
 import Navbar from "../src/Components/Navbar/Navbar";
 import Footer from "../src/Components/Footer/Footer"
 import Home from "../src/Components/Home/Home"
-import Who from "../src/Components/WhoWeAre/WhoWeAre/who";
+import Who from "../src/Components/WhoWeAre/who";
 import Journal from "../src/Components/Journal/Journal";
 import ReachUs from "../src/Components/ReachUs/ReachUs";
 import JournalDetails from "../src/Components/JournalDetails/Journal";
 import RiceMill from './Components/RiceMill/riceMill';
 import HRM from '../src/Components/HRM/hrms';
 import ERP from '../src/Components/Resources/Erp/Erp';
+import ReachUsForm from "./Components/ReachusForm/form";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <>
     {/* <Caro/> */}
     <Navbar/>
+    {/* <ReachUsForm/> */}
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/who" element={<Who/>}/>

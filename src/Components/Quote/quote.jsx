@@ -168,6 +168,7 @@
 
 import React from 'react';
 import "./quote.css";
+import Accordion from '../Accordian/Accordian';
 const quote = () => {
 
     const handleInput = () => {
@@ -212,11 +213,7 @@ const quote = () => {
                 </div>
 
                 <div className='sentence-d'>
-                    <h5>01. Why choose Orive Solutions ?</h5>
-                    <h5>02. What services does Orive Solutions provide?</h5>
-                    <h5>03. Why is technology & IT services important?</h5>
-                    <h5>04. Is your business bringing good results from technology?</h5>
-                    <h5>05. What our IT consultants suggest on new topics?</h5>
+                    <Accordion/>
                 </div>
 
             </div>
