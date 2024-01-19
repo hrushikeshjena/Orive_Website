@@ -15,12 +15,12 @@ import Grp10 from "../../assets/GroupE.png";
 const Who = () => {
   return (
     <div>
-      <div className="Bann-w-r">
-        <div className="top-main-w-r">
-          <div className="who-A-r">
+      <div className="Bann-ri">
+        <div>
+          <div className="who-ri">
             <h1>Rice Mill</h1>
 
-            <div className="home-about-dot-r">
+            <div className="home-about-dot-ri">
               <p>Product</p>
               <img src={Dot} alt="" />
               <p>ERP</p>
@@ -30,37 +30,34 @@ const Who = () => {
           </div>
         </div>
       </div>
-      <div className="mission-i-r">
-        <div className="tes-m-r">
-          <h6> OUR Product </h6>
+      <div className="mission-ri">
+        <div className="tes-m-ri">
+          <h6> OUR PRODUCT </h6>
 
           <h2>
             Transforming Rice Mill Operations with Innovative ERP Solutions!
           </h2>
 
           <p>
-            <span>
               At Orive Solutions, we specialize in revolutionizing rice mill
               processes through cutting-edge Enterprise Resource Planning (ERP)
               solutions. Our tailored ERP system is designed to address the
               unique challenges faced by the rice mill industry, ensuring
               enhanced efficiency, optimal resource utilization, and streamlined
               operations.
-            </span>
           </p>
-          <div className="heading">
+          <div className="heading-ri">
           <h3>Industry Expertise</h3>
-          <div className="dir-m-r">
+          <div className="dir-m-ri">
             <img src={Tick} alt="" className="direct-r" />
             <p>
-    
               With years of expertise in ERP solutions, we understand the
               intricacies of the rice mill industry and have crafted a solution
               that caters specifically to your needs.
             </p>
           </div>
           <h3>Tailored Features</h3>
-          <div className="dir-m-r">
+          <div className="dir-m-ri">
             <img src={Tick} alt="" className="direct-r" />
             <p>
             
@@ -72,12 +69,10 @@ const Who = () => {
             </p>
           </div>
           <h3>Seamless Integration</h3>
-          <div className="dir-m-r">
+          <div className="dir-m-ri">
             <img src={Tick} alt="" className="direct-r" />
             <p>
-            
-          
-              Experience a hassle-free transition as our ERP seamlessly
+            Experience a hassle-free transition as our ERP seamlessly
               integrates into your existing workflow, minimizing disruptions and
               maximizing productivity.
             </p>
@@ -92,7 +87,7 @@ const Who = () => {
           </div>
         </div>
 
-        <div className="">
+        <div className="rice-ir">
           <img src={Product} alt="" className="" />
         </div>
       </div>
@@ -121,7 +116,8 @@ const Who = () => {
               </p></div> 
             </div>
             <div>
-              <img src={Grp8} alt=""></img> <div className="headi"><h4>ACCOUNTING</h4></div>
+              <img src={Grp8} alt=""></img> 
+              <div className="headi"><h4>ACCOUNTING</h4></div>
               <div className="hea-p">  <p>
                 Manage your Customers, Suppliers,Brokers accounts and ledgers
                 automatically update with any transactions. .
@@ -140,7 +136,7 @@ const Who = () => {
       </div>
 
       <div className="about-v-r">
-        <div>
+        <div className="rice-b"> 
           <img src={Benefits} alt="" className="hand-img-r" />
         </div>
 
@@ -213,7 +209,6 @@ const Who = () => {
           <img src={Ipad} alt="" className="" />
         </div>
         <div className="ipad-para">
-          <span>
             <p>
               Your gateway to streamlined rice mill management. Our ERP solution
               ensures seamless operations with a user-friendly login interface.
@@ -223,13 +218,13 @@ const Who = () => {
               every login opens the door to precision, efficiency, and growth.
               Revolutionize your rice mill operations today!
             </p>
-          </span>
+
           <h3>Revolutionize your rice mill operations today!</h3>
         </div>
       </div>
 
-      <div className="mission-i-r">
-        <div className="tes-m-r">
+      <div className="mission-ri">
+        <div className="tes-m-ri">
           <h6> Benefits</h6>
 
           <h2>Advantages of Our Annam ERP Software for Rice Mills</h2>

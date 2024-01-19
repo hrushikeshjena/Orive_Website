@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,700&family=Poppins:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,700&family=Poppins:wght@300;600&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
-.journal-header{ 
-    background-image: url(../../assets/Journal.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 340px; 
+.journal-header-main {
+  background-image: url(../../assets/Journal.png);
+  background-position: center;
+  height: 340px;
+  background-size: cover;
 }
 
-.journal-header h1{
+.journal-header-main h1 {
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-weight: 500px;
@@ -18,7 +16,7 @@
     padding-top: 150px;
 }
 
-.journal-litag ul{
+.journal-litag-main ul {
     color: #ffffff;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'DM Sans', sans-serif;
@@ -28,40 +26,38 @@
     text-align: center;   
 }
 
-.journal-litag span{
-    color: #F76C24;
-    size: 10px;
-    list-style-type: circle;
+.journal-litag-main span {
+  color: #f76c24;
+  size: 10px;
+  list-style-type: circle;
 }
 
-.journal-litag li img{
-    text-align: center;
-    padding-left: 17px;
+.journal-litag-main li img {
+  text-align: center;
+  padding-left: 17px;
 }
 
-.journal-blog{
+.journal-blog-main {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
-.journal-description{
+.journal-description-main {
     background-color: #ffffff;
-    width: calc(100%/2);
-    padding: 0 50px;
-    margin: 0 auto;
+    width: 50%;
 }
 
-.journal-description h2{
+.journal-description-main h2 {
     font-family: 'Poppins', sans-serif;
     padding-top: 10px;
     font-size: 37px;
     font-weight: 600px;
 }
 
-.button-machine button{
+.button-machine-main {
     cursor: pointer;
     padding: 8px 22px;
     border-radius: 4px;
@@ -74,59 +70,39 @@
     font-family: 'DM Sans', sans-serif;
 }
 
-/* .journal-image{
-    padding-top: 50px;
-    border-radius: 10px 20px; 
-    padding-left: 80px;
-    height: 400px;
-    width: calc(100%/2);
-    text-align: center;
-
+.img-journal-bg-main {
+  padding-left: 80px;
+}
+.img-journal-bg-main img {
+  border-radius: 10px;
 }
 
-.journal-image img{
-    width: 700px;
-    height: 500px;
-    border-radius: 9px 9px 9px 9px;
-    
-} */
-.img-journal-bg{
-   
-    padding-left: 80px
-
-}
-.img-journal-bg img {
-    border-radius: 10px ;
-}
-
-.button-readblog button{
-    cursor: pointer;
-    margin-right: 120px;
-    border-radius: 7px;
-    background-color: #F76C24;
-    color: #fff6f6;
-    border: none;
-    font-weight: 520;
-    font-size: 19px;
-    font-family: 'Poppins', sans-serif;
-    width: 200px;
-    height: 55px;
-   
+.button-readblog-main button {
+  cursor: pointer;
+  padding: 6px 18px; 
+  border-radius: 5px;
+  background-color: #f76c24;
+  color: #fff6f6;
+  border: none;
+  font-weight: 510;
+  font-size: small;
+  font-family: "Poppins", sans-serif;
+  width: max-content    ;
+  height: 40px;
+  text-align: start;
 }
 
-.button-readblog {
-    text-align: center;
-    margin-top: 50px;
-    margin-right: 330px;
+.button-readblog-main {
+  margin-top: 20px;
 }
 
-.arrow-top{
-    position: relative;
-    top: 2.5px;
-    left: 2px;
+.arrow-top-main {
+  position: relative;
+  top: 2.5px;
+  left: 2px;
 }
 
-.person-clander{
+.person-clander-main {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -135,130 +111,49 @@
     gap:20px;
 }
 
-.person,.calender{
+.person-main,
+.calender-main {
     display: flex;
     align-items: center;
-    justify-content: center;
     color: #61657E;
     gap:7px;
+    font-size: 0.8rem;
 }
-
-.ourBlog{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 75px;
-    margin-bottom: 30px;
-
+.person-main,
+.calender-main p {
+  margin-top: 20px;
+  font-size: x-small;
 }
-
-.ourBlog .ourBlog-description{
-    width: 50%;
+.person-main img {
+  width: 12px;
+  margin-top: -18px;
 }
-
-.ourBlog-para p{
-    color: #777888;
-    font-family: 'DM Sans', sans-serif;
-    line-height: 25px;
-    font-weight: 700;
-    font-size: 14px;
-    text-align: justify;
-    margin-left:20px;
+.calender-main img {
+  width: 15px;
 }
-
- .ourBlog-description ul li{
-    color: #777888;
-    font-family: 'DM Sans', sans-serif;
-    line-height: 25px;
-    font-weight: 600;
-    font-size: small;
-    text-align: left;
-    margin-left:10px;
-}
-
-.ourBlog-description ul img{
-    width: 750px;
-    padding-top: 15px;
-}
-.ourBlog-description h4,span{
-    text-decoration: underline;
-}
-
-
-.ourBlog-from  {
-    
-    position :sticky;
-  top:2px;
-  left:60%;
-  width: 400px; 
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 480px;
-  padding: 5px;
-  z-index: 10;
-  
-}    
-
-.in-form{
-    text-align: center;
-}
-.form-o h1{
-    font-family: 'Poppins', sans-serif;
-    color: #2F3045;
-    font-size: 25px;
-    font-weight: 300px;
-    text-align: center;
-    padding-top: 25px;
-   
-}
-
-.form-ob{
-    margin-top: 30px;
-    height: 30px;
-    display: block;
+@media(max-width:851px){
+    .journal-blog-main{
+        flex-direction: column;
+        text-align: center;
     }
-    
-    .form-ob input{
-    padding: 6px;
-    width: 350px;
-    height: 50px;
-    border: 1px solid #CCCCCC;  
-    font-family: 'DM Sans', sans-serif;
-    border-radius: 5px;
+    .journal-description-main{
+        width: auto;
+        margin-bottom: 50px;
     }
-
-    .form-ob select{
-    padding: 6px;
-    width: 350px;
-    height: 50px;  
-    border: 1px solid #CCCCCC;
-    border-radius: 5px;
-    font-family: 'DM Sans', sans-serif;
+    .person-clander-main{
+        justify-content: center;
     }
-
-    .form-ob option{
-        font-family: 'DM Sans', sans-serif;
+    .img-journal-bg-main{
+        padding-left: 0px;
     }
-
-    .button-submi{
-    margin-top: 120px;
+}
+@media(max-width:480px){
+    .journal-img-side{
+        height: 250px;
     }
-    
-    .button-submi button{
-    cursor: pointer;
-    padding: 8px 22px;
-    border-radius: 4px;
-    background-color: #ff4500;
-    color: #fff6f6;
-    border: none;
-    width: 350px;
-    font-family: 'Roboto', sans-serif;
+}
+@media(max-width:415px){
+    .journal-img-side{
+        height: 200px;
     }
-
-
-    .ourBlog img {
-        max-width: 100%;
-        z-index:1;
-        margin-bottom:5%;
-    }
-    
-    
+}

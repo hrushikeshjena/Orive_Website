@@ -7,7 +7,6 @@ import Main from "../Blog/Main";
 import "./Home.css";
 import { useState, useEffect } from "react";
 import ReachUsForm from "../ReachusForm/form";
-import Acc from '../Accordian/Accordian'
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -26,13 +25,13 @@ const Home = () => {
 
   return (
     <>
-      {/* {" "}
+      {" "}
       {open && (
         <div className="modal-ka-baap" onClick={handleOverlayClick}>
         
           <div className="modal-div"><ReachUsForm setOpen={setOpen}/></div>
         </div>
-      )} */}
+      )}
       <MainFile />
       <AboutCompany />
       <Card />

@@ -2,14 +2,32 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,700&family=Poppins:wght@300;600&family=Roboto&display=swap');
 
-.erp-header{ 
+.erp-header-e{ 
     background-image: url(../../../assets/Journal.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 340px; 
+    height: 340px;
+}
+.home-about-dot-e {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
 }
 
-.erp-header h1{
+.home-about-dot-e p{
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.home-about-dot-e img {
+    width: 6px;
+    height: 6px;
+}
+
+
+.erp-header-e h1{
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-weight: 500px;
@@ -18,28 +36,8 @@
     padding-top: 150px;
 }
 
-.erp-litag ul{
-    color: #ffffff;
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 900px;
-    font-size: 19px;
-    margin-left: 10px;
-    text-align: center;   
-}
 
-.erp-litag span{
-    color: #F76C24;
-    size: 10px;
-    list-style-type: circle;
-}
-
-.erp-litag li img{
-    text-align: center;
-    padding-left: 17px;
-}
-
-.erp-blog{
+.erp-blog-e{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,13 +45,13 @@
     margin-bottom: 70px;
 }
 
-.erp-description{
+.erp-description-e{
     background-color: #ffffff;
     padding: 0 50px;
     margin: 0 auto;
 }
 
-.erp-description h2{
+.erp-description-e h2{
     font-family: 'Poppins', sans-serif;
     padding-top: 10px;
     font-size: 37px;
@@ -61,12 +59,12 @@
     margin-right: 200px;
 
 }
-.about-erp h6{
+.about-erp-e h6{
     font-family: 'Poppins', sans-serif;
     color: #ff4500;
     font-size: 19px;
 }
-.paragraph-erp p{
+.paragraph-erp-e p{
     margin-right: 200px;
     text-align: justify;
     line-height: 30px;
@@ -211,10 +209,10 @@
     .button-submi-erp{
     margin-top: 120px;
     }
-    .image-erp img{
+    .image-erp-e img{
         height: 492px;
-        width: 380px;
-        margin-right: 20px;
+        width: 400px;
+        margin-right: 50px;
         margin-top: 30px;
         /* box-shadow: 2px 2px 2px gray; */
     }
@@ -310,18 +308,53 @@ margin-right: 120px;
 }
 .point {
   position: relative;
-  top: 55px;
-  right: 50px;
-}
+  top: 8px;
+  left: 30px;
+
+} 
 .line{
-    position: relative;
+    /* position: relative;
     top: 8px;
     right: 100px;
-    width: 1340px;
+    width: 1340px; */
 }
 .sentence-dr{
     margin-top: 80px;
-    margin-left: 200px;
+    margin-left: 100px;
+}
+.fin p{
+    position: relative;
+    left: 80px;
+    bottom: 55px;
+    margin-right: 50px;
+    text-align: start;
+    font-size: 14px;
+    display: none;
+}
+.fin {
+    padding-top: 40px;
+    background: transparent;
+    border-radius: 4px;
+    position: relative;
+    transition: 1s all ease;
+  }
+  
+.fin h5{
+
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+}
+.fin:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background: #F76C24;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #F76C24, #530948);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F76C24, #530948); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+.fin:hover p{
+    display: block;
 }
 .head-i{
 
@@ -358,10 +391,14 @@ margin-top: 110px;
         height: 535px;
         width: 400px;
 }
+
+.gr-li img:hover{
+    
+}
 .gr-r{
     position: relative;
     top: 270px;
-    right: 75px;
+    right: 140px;
 }
 .gr-r p{
     position: absolute;

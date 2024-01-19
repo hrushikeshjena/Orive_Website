@@ -41,17 +41,15 @@
 
 .journal-blog{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 .journal-description{
     background-color: #ffffff;
     width: calc(100%/2);
-    padding: 0 50px;
-    margin: 0 auto;
 }
 
 .journal-description h2{
@@ -61,7 +59,7 @@
     font-weight: 600px;
 }
 
-.button-machine button{
+.button-machine-btn{
     cursor: pointer;
     padding: 8px 22px;
     border-radius: 4px;
@@ -74,51 +72,10 @@
     font-family: 'DM Sans', sans-serif;
 }
 
-/* .journal-image{
-    padding-top: 50px;
-    border-radius: 10px 20px; 
-    padding-left: 80px;
-    height: 400px;
-    width: calc(100%/2);
-    text-align: center;
-
-}
-
-.journal-image img{
-    width: 700px;
-    height: 500px;
-    border-radius: 9px 9px 9px 9px;
-    
-} */
-.img-journal-bg{
-   
-    padding-left: 80px
-
-}
 .img-journal-bg img {
     border-radius: 10px ;
 }
 
-.button-readblog button{
-    cursor: pointer;
-    margin-right: 120px;
-    border-radius: 7px;
-    background-color: #F76C24;
-    color: #fff6f6;
-    border: none;
-    font-weight: 520;
-    font-size: 19px;
-    font-family: 'Poppins', sans-serif;
-    width: 200px;
-    height: 55px;
-   
-}
-
-.button-readblog {
-    text-align: center;
-    margin-top: 50px;
-    margin-right: 330px;
-}
 
 .arrow-top{
     position: relative;
@@ -138,9 +95,9 @@
 .person,.calender{
     display: flex;
     align-items: center;
-    justify-content: center;
     color: #61657E;
     gap:7px;
+    font-size: 0.8rem;
 }
 
 .ourBlog{
@@ -188,7 +145,7 @@
 .ourBlog-from  {
     
     position :sticky;
-  top:2px;
+  top:90px;
   left:60%;
   width: 400px; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -259,6 +216,120 @@
         max-width: 100%;
         z-index:1;
         margin-bottom:5%;
+    }
+    @media(max-width:1036px){
+        .ourBlog .ourBlog-description{
+            width: 40%;
+        }
+        .ourBlog-from{
+            margin-right: 50px;
+        }
+    }
+    @media(max-width:1000px){
+        .journal-blog{
+            gap: 20px;
+        }
+    }
+    @media(max-width:945px){
+        .ourBlog .ourBlog-description{
+            width: 40%;
+            margin-left: 50px;
+        }
+        .ourBlog-from{
+            margin-right: 50px;
+        }
+    }
+    @media(max-width:895px){
+        .ourBlog{
+            flex-direction: column;
+        }
+        .ourBlog .ourBlog-description{
+            width: 85%;
+            margin-left: 40px;
+        }
+        .ourBlog-description{
+            margin: 0;
+        }
+        .ourBlog-from{
+            position:static;
+            margin: auto;
+            margin-top: -80px;
+        }
+    }
+    @media(max-width:851px){
+        .journal-blog{
+            flex-direction: column;
+            text-align: center;
+        }
+        .journal-description{
+            width: auto;
+        }
+        .person-clander{
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+    }
+    @media(max-width:766px){
+        .ourBlog-from{
+            position:static;
+            margin: auto;
+            margin-top: -90px;
+        }
+    }
+    @media(max-width:645px){
+        .ourBlog .ourBlog-description{
+            width: 85%;
+            margin-left: 30px;
+        }
+        .ourBlog-description{
+            margin: 0;
+        }
+    }
+    @media(max-width:478px){
+        .img-side-ml{
+            height: 250px;
+        }
+        .ourBlog .ourBlog-description{
+            width: 85%;
+            margin-left: 20px;
+        }
+    }
+    @media(max-width:408px){
+        .ourBlog-from{
+            transform: scale(0.85);
+        }
+    }
+    @media(max-width:400px){
+        .img-side-ml{
+            height: 200px;
+        }
+        .journal-description{
+            font-size: 0.8rem;
+        }
+        #ml-des{
+            font-size: 2rem;
+        }
+       
+    }
+    @media(max-width:396px){
+        .ourBlog-from{
+            margin-left: -10px;
+        }
+    }
+    @media(max-width:379px){
+        .ourBlog-from{
+            margin-left: -15px;
+        }
+    }
+    @media(max-width:384px){
+        .journal-header ul{
+            font-size: 15px;
+        }
+    }
+    @media(max-width:368px){
+        .ourBlog-from{
+            margin-left: -20px;
+        }
     }
     
     

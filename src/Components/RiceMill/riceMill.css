@@ -1,38 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;300;600&family=Roboto:wght@300&family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&family=Poppins:wght@100&display=swap');
-.Bann-w-r {
+.Bann-ri {
     background-image: url("../../assets/Rice-B.png");
     background-position: center;
     height: 500px;
 }
-.who-A-r ul{
+.who-ri ul{
     text-align: center;
     color:#fff6f6;
     font-size: 55px;
 }
-ul {
-    list-style-type: none;
-    padding: 0;
-  }
 
-
-
-  
-.li{
-    color: white;
-
-  }
-  ul {
-    list-style-type: none;
-    padding:10px;
-  }
-
-  li:not(:first-child) {
-    margin-left:10px;
-  }
-  
-
-.who-A-r h1{
+.who-ri h1{
     text-align: center;
     color:#fff6f6;
     font-family: 'Poppins', sans-serif;
@@ -42,7 +21,7 @@ ul {
     padding-top: 150px;
 }
 
-.home-about-dot-r {
+.home-about-dot-ri {
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -51,29 +30,23 @@ ul {
     cursor: pointer;
 }
 
-.home-about-dot-r p{
+.home-about-dot-ri p{
   font-size: 18px;
   font-weight: 600;
   color: white;
 }
 
-.home-about-dot-r img {
+.home-about-dot-ri img {
     width: 6px;
     height: 6px;
 }
 
-
-.sub-w-r{
-    display: flex;
-}
-.sub-w-r p {
-    color:#fff6f6;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 30px;
-}
 .about-v-r{
-  display: inline-flex;
-  margin: 90px 80px  110px 110px;
+  display: flex;
+}
+.rice-b img{
+    height: 502px;
+    width: 497px;
 }
 .text-content-r{
 margin-left: 35px;
@@ -85,17 +58,11 @@ margin-left: 35px;
   font-family: 'Poppins', sans-serif;
 }
 .text-v-r h2{
-  font-size: 40px;
+  font-size: 35px;
   font-family: 'Poppins', sans-serif;
 
 }
 
-.dir-v-r p{
-  margin-left: 19px;
-  font-size: 10px;
-  font-family: 'Poppins', sans-serif;
-  
-}
 
 .text-v-r p{
   font-size: 12px;
@@ -109,7 +76,7 @@ margin-left: 35px;
 }
 .dir-v-r {
 display: flex;
-margin-left: 20px;
+margin-left: 70px;
 } 
 .tea-m-r{
   display: flex;
@@ -119,10 +86,10 @@ margin-left: 20px;
   margin-top: 50px;
 
 }
-.heading{
+.heading-ri{
     margin-top: 30px;
 }
-.heading h3{
+.heading-ri h3{
     margin-left: 60px;
     margin-top: 10px;
     margin-bottom:10px;
@@ -173,31 +140,18 @@ margin-left: 20px;
     margin-left: 80px;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
 }
 
-.dir-v-r p{
-    margin-left: 19px;
-    font-size: 10px;
-    font-family: 'Poppins', sans-serif;
-    
-}
 
 .text-v-r p{
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
-    margin-top: 20px;
     margin-right: 50px;
+    position: relative;
+    top: 23px;
 }
-.text-r p span{
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    text-align: justify;
-}
-.dir-v-r {
-display: flex;
-margin-left: 70px;
-} 
 .tea-m-r{
     display: flex;
     background-image: url(../../assets/bg-i.png);
@@ -318,34 +272,28 @@ margin-right: 10px;
     height: 30px;
     display: block;
 }
-.mission-i-r{
-    display: inline-flex;
+.mission-ri{
+    display: flex;
     margin: 50px 80px  110px 110px;
 }
-
-.tes-m-r h6{
+.tes-m-ri h6{
     font-size: 15px;
     color: #ff4500;
     font-weight: 600; 
     font-family: 'Poppins', sans-serif;
 }
-.tes-m-r h2{
-    font-size: 40px;
+.tes-m-ri h2{
+    font-size: 35px;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
 }
-.tes-m-r p{
-    font-size: 12px;
+.tes-m-ri p{
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
     margin-right: 50px;
 }
-.tes-m-r p span{
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    text-align: justify;
-}
-.dir-m-r {
-
+.dir-m-ri {
 display: flex;
 align-items: center; 
 justify-content: flex-start;
@@ -355,14 +303,20 @@ justify-content: flex-start;
     top: 4px;
     left: 5px;
 }
-.dir-m-r img{
+.dir-m-ri img{
     position: relative;
   bottom: 60px;
     height: 50px;
     width: 50px;
 }
 
-.dir-m-r p{
+.rice-ir img{
+    margin-top: 60px;
+    height: 500px;
+    width: 496px;
+}
+
+.dir-m-ri p{
     display: flex;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
@@ -476,7 +430,7 @@ justify-content: flex-start;
 .res-erp-ri{
     background-image: url(../../assets/fact-m.png);
     height: 1050px;
-    width: 1550px;
+    width: 1473px;
     margin-bottom: 50px;
 
 }  
@@ -528,7 +482,7 @@ cursor: pointer;
       height: 283px;
       width: 230px;
   margin: 30px;
-  margin-top: 110px;  
+  margin-top: 50px;  
 }
 .card-e img:hover{
 
@@ -537,37 +491,35 @@ filter: brightness(50%);
 cursor: pointer;
 }
 
-.card-e .he{
+.he{
 position: relative;
-bottom: 165px;
 text-align: center;
-margin-right: 82px;
 color: white;
 font-size: 12px;
 font-family: 'Poppins', sans-serif;
 }
 .hea{
     position: relative;
-bottom: 165px;
 text-align: center;
-margin-right: 50px;
+left: 20px;
 color: white;
 font-size: 12px;
 font-family: 'Poppins', sans-serif;
 }
 .headt {
     position: relative;
-    bottom: 165px;
     text-align: center;
-    margin-right: 90px;
     color: white;
+    right: 15px;
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
 }
+.hea-p{
+    position: relative;
+    left: 22px;
+}
 .head-p{
     position: relative;
-    bottom: 7px;
-    margin-left:0px;
     margin-right: 20px;
     color: white;
     font-size: 11px;
@@ -575,28 +527,15 @@ font-family: 'Poppins', sans-serif;
 }
 .headi{
     position: relative;
-    bottom: 165px;
     text-align: center;
-    margin-right: 70px;
+    left: 15px;
     color: white;
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
 }
+
 .card-e p{
 position: relative;
-bottom: 165px;
-margin-left:50px;
-margin-right: 120px;
-color: white;
-font-size: 11px;
-/* text-align: justify; */
-font-family: 'Poppins', sans-serif;
-}
-.hea-p{
-    position: relative;
-bottom: 7px;
-margin-left:30px;
-margin-right: 10px;
 color: white;
 font-size: 11px;
 font-family: 'Poppins', sans-serif;
@@ -617,4 +556,10 @@ font-family: 'Poppins', sans-serif;
     text-align: center;
     color: #fff6f6;
     font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+    .mission-i-r{
+    
+    }
 }

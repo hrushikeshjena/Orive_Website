@@ -13,6 +13,8 @@ import rate from "../../assets/div-r.png";
 import Dot from "../../assets/Ellips-e.png";
 import Mission from "../../assets/missi.png";
 import arrow from "../../assets/arrow-top.png";
+import Banner from "../Banner/banner";
+
 const Who = () => {
   return (
     <div>
@@ -68,7 +70,6 @@ const Who = () => {
           </div>
           <div className="button-get" type="button">
             <button>
-              
               Get Started
               <img src={arrow} className="arrow-top" />
             </button>
@@ -76,18 +77,17 @@ const Who = () => {
         </div>
 
         <div className="bg-img">
-          <img src={Mission} alt="" className="" />
+          <img src={Mission} alt="" className="mission-img" />
         </div>
       </div>
       <div className="story">
         <div className="story-o">
           <img src={grp} alt="" className="s-img" />
         </div>
-        <div className="story-p">
-          <h1>Our Story</h1>
-          <div className="story-e">
-            {" "}
-            <p>5+ Years of Pioneering Excellence in IT Services</p>
+        <div className="story-part">
+          <div className="story-text">
+            <h1>Our Story</h1>
+            <p className="five-plus">5+ Years of Pioneering Excellence in IT Services</p> 
             <p>
               Established in 2018, Orive Solutions has evolved into a dynamic
               force in the IT services sector. Over the past 5+ years, we have
@@ -99,24 +99,24 @@ const Who = () => {
           </div>
           <div className="para-c">
             <div className="para-cc">
-              <img src={peo} alt="" className="s-img" />
+              <img src={peo} alt="" className="s-img-s" />
               <div className="par">
                 {" "}
-                <p>We Have More Than 6+ Years of Experience</p>
+                <p className="my-auto">We Have More Than 6+ Years of Experience</p>
               </div>
             </div>
             <div className="para-cc">
-              <img src={rate} alt="" className="s-img" />
+              <img src={rate} alt="" className="s-img-s" />
               <div className="par">
                 {" "}
-                <p>We use professional and experienced person</p>
+                <p className="my-auto">We use professional and experienced person</p>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div className="about-v">
-        <div>
+        <div className="hand-img-div">
           <img src={Hand} alt="" className="hand-img" />
         </div>
 
@@ -158,6 +158,12 @@ const Who = () => {
               to clients.
             </p>
           </div> 
+          <div className="button-get" type="button">
+            <button>
+              Get Started
+              <img src={arrow} className="arrow-top" />
+            </button>
+          </div>
           
         </div>
        
@@ -169,40 +175,13 @@ const Who = () => {
           <p> We are a team of IT services and Technologies pecialists</p>
 
           <div className="team-u">
-            <img src={Team} alt="" />
-            <img src={Teams} alt="" />
+            <img src={Team} className="team-u-img" alt="" />
+            <img src={Teams} className="team-u-img" alt="" />
           </div>
         </div>
       </div>
       <div className="banner-i">
-        <div className="test-w">
-          <h6>TESTIMONIALS</h6>
-
-          <h2>What Our Client Say’s</h2>
-          <img src={Symbol} alt="" className="Symboll" />
-
-          <p>
-            <span>
-              There are many varation of paissages of Lorem as the Ipum
-              available but our majority have sufferied alterations in some
-              form, by our by injected hsumour randomised worids which don't
-              looks even slightly there as believable. If you going to use a
-              passage of Lorem Ipsum.
-            </span>
-          </p>
-
-          <div className="dir">
-            <img src={direc} alt="" className="direct" />
-            <div className="dir-d">
-              <h4>Darrell Steward</h4>
-
-              <p>Managing Director</p>
-            </div>
-          </div>
-        </div>
-        <div className="">
-          <img src={groupimg} alt="" className="" />
-        </div>
+        <Banner></Banner>
       </div>
     </div>
   );

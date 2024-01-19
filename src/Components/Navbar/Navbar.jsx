@@ -29,11 +29,6 @@ const Navbar = () => {
           >
             <div className="navbar-right-content">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0 all-nav-elemnt">
-                <li className="nav-item hii">
-                  <Link className="nav-link" to={"/"}>
-                    Adobe Leaf
-                  </Link>
-                </li>
                 <li className="nav-item">
                   <Link className="nav-link" to={"/who"}>
                     Who We Are
@@ -69,6 +64,11 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link className="nav-link" to={"/reachus"}>
                     Reach Us
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to={"/career"}>
+                    Careers
                   </Link>
                 </li>
                 <div className="contact-num">

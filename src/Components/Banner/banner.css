@@ -8,25 +8,26 @@
     padding: 0 5rem;
 }
 
-.test-w h6{
+.test-w-t h6{
     font-size: 15px;
     color: #ff4500;
     font-weight: 500; 
     font-family: 'Poppins', sans-serif;
 }
-.test-w h2{
+.test-w-t h2{
     font-size: 40px;
     font-weight: 700;
     color: rgba(47, 48, 69, 1);
     font-family: 'Poppins', sans-serif;
 }
-.test-w p{
-    font-size: 11px;
+.test-w-t p{
+    font-size: 17px;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
     color: rgba(97, 101, 126, 1);
+    line-height: 28px;
 }
-.test-w p span{
+.test-w-t p span{
     font-size: 18px;
     font-family: 'DM Sans', sans-serif;
     text-align: justify;
@@ -65,15 +66,17 @@
         height: 100vh;
     }
     
-    .test-w h6{
+    .test-w-t h6{
         font-size: 1.5vw;
     }
-    .test-w h2{
+    .test-w-t h2{
         font-size: 3.5vw;
     }
-    .test-w p span{
-        font-size: 1.2vw;
-        line-height: 2.5vw;
+    .test-w-t span{
+        line-height: 2vw;   
+    }
+    .test-w-t p{
+line-height: 2vw;
     }
     .direct{
         width: 4.5vw;
@@ -95,7 +98,7 @@
     .banner-i{
         height: auto;
     }
-    .test-w p{
+    .test-w-t p{
         font-size: 1vw;
         font-family: 'Poppins', sans-serif;
         text-align: justify;

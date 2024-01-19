@@ -39,20 +39,20 @@ const banner = () => {
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
             <div className="banner-i">
-              <div className="test-w">
+              <div className="test-w-t">
                 <h6>TESTIMONIALS</h6>
 
                 <h2>What Our Client Say’s</h2>
                 <img src={Symbol} alt="" className="Symboll my-3" />
 
                 <p>
-                  <span>
+                  <p id="test-span-text">
                     There are many varation of paissages of Lorem as the Ipum
                     available but our majority have sufferied alterations in
                     some form, by our by injected hsumour randomised worids
                     which don't looks even slightly there as believable. If you
                     going to use a passage of Lorem Ipsum.
-                  </span>
+                  </p>
                 </p>
 
                 <div className="dir">
@@ -71,20 +71,20 @@ const banner = () => {
           </div>
           <div class="carousel-item" data-bs-interval="2000">
             <div className="banner-i">
-              <div className="test-w">
+              <div className="test-w-t">
                 <h6>TESTIMONIALS</h6>
 
                 <h2>What Our Client Say’s</h2>
                 <img src={Symbol} alt="" className="Symboll" />
 
                 <p>
-                  <span>
+                  <p id="test-span-text">
                     There are many varation of paissages of Lorem as the Ipum
                     available but our majority have sufferied alterations in
                     some form, by our by injected hsumour randomised worids
                     which don't looks even slightly there as believable. If you
                     going to use a passage of Lorem Ipsum.
-                  </span>
+                  </p>
                 </p>
 
                 <div className="dir">
@@ -103,20 +103,20 @@ const banner = () => {
           </div>
           <div class="carousel-item">
             <div className="banner-i">
-              <div className="test-w">
+              <div className="test-w-t">
                 <h6>TESTIMONIALS</h6>
 
                 <h2>What Our Client Say’s</h2>
                 <img src={Symbol} alt="" className="Symboll" />
 
                 <p>
-                  <span>
+                  <p id="test-span-text">
                     There are many varation of paissages of Lorem as the Ipum
                     available but our majority have sufferied alterations in
                     some form, by our by injected hsumour randomised worids
                     which don't looks even slightly there as believable. If you
                     going to use a passage of Lorem Ipsum.
-                  </span>
+                  </p>
                 </p>
 
                 <div className="dir">

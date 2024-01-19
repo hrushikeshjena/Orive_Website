@@ -9,15 +9,13 @@ import JournalDetails from "../src/Components/JournalDetails/Journal";
 import RiceMill from './Components/RiceMill/riceMill';
 import HRM from '../src/Components/HRM/hrms';
 import ERP from '../src/Components/Resources/Erp/Erp';
-import ReachUsForm from "./Components/ReachusForm/form";
+import Career from '../src/Components/Career/career'
 
 function App() {
 
   return (
     <>
-    {/* <Caro/> */}
     <Navbar/>
-    {/* <ReachUsForm/> */}
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/who" element={<Who/>}/>
@@ -27,10 +25,7 @@ function App() {
         <Route path="/ricemill" element={<RiceMill/>}/>
         <Route path="/hrms" element={<HRM/>}/>
         <Route path="/erp" element={<ERP/>}/>
-       
-        <Route path="/" element={<Home/>}/>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/career" element={<Career/>}/>
       </Routes>
     <Footer/> 
     </>
