@@ -9,7 +9,7 @@ import JournalDetails from "../src/Components/JournalDetails/Journal";
 import RiceMill from './Components/RiceMill/riceMill';
 import HRM from '../src/Components/HRM/hrms';
 import ERP from '../src/Components/Resources/Erp/Erp';
-import Career from '../src/Components/Career/career'
+import Career from '../src/Components/Career/search'
 
 function App() {
 

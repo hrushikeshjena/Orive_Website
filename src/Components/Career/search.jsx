@@ -3,68 +3,62 @@ import Dotted from "../../assets/Ellips-e.png";
 import { AiOutlineSearch } from "react-icons/ai";
 import { CiBookmark } from "react-icons/ci";
 import Formsg from "../../assets/msgrp.png";
-
-
+import sb from "../../assets/sb.png";
 
 const search = () => {
   return (
     <div>
-       <div className="career-h">
-        <h1>Careers</h1>
-        <div className="home-about-dot-c">
-          <p>Home</p>
-          <img src={Dotted} alt="" />
+      <div className="career-h">
+        <h1 className="fw-bold">Careers</h1>
+        <div
+          className="home-about-dot-a d-flex justify-content-center fw-bold"
+          style={{ marginTop: "-5px" }}
+        >
+          <p style={{ color: "white" }}>Home</p>
+          <img className="mt-2 mx-2" src={Dotted} height={6} alt="" />
           <p style={{ color: "#f76c24" }}>Careers</p>
         </div>
       </div>
-
-      <div className="searchDiv grid bg-greyIsh rounded-[10px] p-[2rem]">
-      
-      <h2>Search Jobs</h2>
-        <form action="">
-          <div className="firstDiv flex justify-between items-center rounded-[8px] bg-white p-5 shadow-lg shadow-greyIsh-900">
-            <div className="flex items-center input-inp">
-              <input
-                type="text"
-                id="text-placeholder"
-                className="bg-transparent"
-                placeholder="Search the Job Role you are looking for"
-              />
-              
+      <div className="seach-bar-top">
+        <h2 className="fw-bold mx-5 my-5">Search Jobs</h2>
+        <div className="search-bar-div">
+          <input
+            className="search-bar-bar"
+            type="text"
+            name=""
+            id=""
+            placeholder="Search the Job Role you are looking for"
+          />
+          <button className="search-bt-bar">
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <div>
+                <div>
+                  Search <img src={sb} alt="" />
+                </div>
+              </div>
             </div>
-            <div className="btn-search"><button >
-              Search
-              <AiOutlineSearch id="id" className="text-[29px] icon" />
-            </button>
-          </div></div>
-        </form>
-</div>
-
-
-
-<div className="text">
-          <h2>Latest Jobs(18)</h2>
-          <div className="flex svd-j">
-            {" "}
-            <div id="id-save" className="flex items-center text-[#ccc] gap-l back-c">
-             <p>Saved Jobs</p>  <CiBookmark className="svj-s"/>
-            </div>
-             
-          </div>
-          <div className="xyz">
-              <h3>No results For “Xyz”</h3>
-            </div>
-            <div className="tips">
-            <h3> Search Tips</h3>
-            </div>
-            <div className="tips-p">
-            <p>There are currently no jobs available that:  match your search Criteria. Let us contact you when a matching job becomes available.
- Fill the below Form to receive job alerts.</p>
-            </div>
+          </button>
         </div>
+      </div>
+      <div>
+        <div className="d-flex align-items-center justify-content-between">
+        <h2 className="fw-bold mx-5 my-5">Latest Jobs (0)</h2>
+        <button className="side-s-btn mx-5">Search</button>
+        </div>
+        <h4 className="fw-bold mx-5 my-5">No results For “Xyz” (0)</h4>
+        <h4 className="fw-bold mx-5 my-5">SEARCH TIPS</h4>
+        <p className="mx-5 my-2">There are currently no jobs available that:  match your search Criteria. Let us contact you when a matching job becomes available.
+ Fill the below Form to receive job alerts.</p><br /><br /><br />
+      </div>
 
 
-        <div className="team-c">
+      <div className="team-c">
         <div className="form-s">
           <h6>Stay Connected</h6>
           <div className="join-c">
@@ -176,6 +170,6 @@ const search = () => {
       </div>
     </div>
   );
-}
+};
 
 export default search;

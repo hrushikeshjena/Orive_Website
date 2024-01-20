@@ -4,13 +4,13 @@
 
 .erp-header-e{ 
     background-image: url(../../../assets/Journal.png);
-    height: 340px;
+    background-position: center;
+    height: auto;
+    padding-bottom: 50px;
 }
 .home-about-dot-e {
-    margin-top: 40px;
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 15px;
     cursor: pointer;
 }
@@ -36,40 +36,50 @@
     padding-top: 150px;
 }
 
+.erp{
+    
+    
+}
+
 
 .erp-blog-e{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 70px;
     margin-bottom: 70px;
 }
 
 .erp-description-e{
     background-color: #ffffff;
-    padding: 0 50px;
-    margin: 0 auto;
+    width: 70%;
+    margin-right: 50px;
 }
 
-.erp-description-e h2{
+#dsc-erp{
     font-family: 'Poppins', sans-serif;
     padding-top: 10px;
     font-size: 37px;
     font-weight: 600px;
-    margin-right: 200px;
 
 }
 .about-erp-e h6{
     font-family: 'Poppins', sans-serif;
     color: #ff4500;
-    font-size: 19px;
+    font-size: 16px;
+}
+.about-erp-e-erp h6{
+    font-family: 'Poppins', sans-serif;
+    color: #ff4500;
+    font-size: 16px;
 }
 .paragraph-erp-e p{
-    margin-right: 200px;
-    text-align: justify;
     line-height: 30px;
-    margin-top:25px;
+    margin-top:15px;
     font-family: 'Poppins', sans-serif;
+    color: 
+    rgba(119, 120, 136, 1);
+    font-size: 0.9rem;
 }
 
 
@@ -210,11 +220,7 @@
     margin-top: 120px;
     }
     .image-erp-e img{
-        height: 492px;
-        width: 400px;
-        margin-right: 50px;
-        margin-top: 30px;
-        /* box-shadow: 2px 2px 2px gray; */
+        height: 500px;
     }
     
     .button-submi-erp button{
@@ -232,7 +238,6 @@
         background-image: url(../../../assets/Mask-group.png);
         height: 400px;
         margin-bottom: 100px;
-    
     }   
 .feat-s h6{
     text-align: center;
@@ -240,6 +245,33 @@
     padding-top: 40px;
     font-family: 'Poppins', sans-serif;
 }
+
+.hea-p p{
+    position: relative;
+    /* font-size:7px; */
+    padding:20%;
+    bottom:40px;
+    
+}
+
+.he{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 8px;
+    font-family: 'Poppins', sans-serif;
+    margin-top:-200px;
+    }
+    
+    .he h4{
+        margin-top:10%;
+      font-size:14px;
+      font-weight:600;
+    }
+
+#font{
+    font-size:11px;
+  }
 
 .feat-s p{
     font-size: 30px;
@@ -252,19 +284,23 @@
     display: flex;
     margin-left: 100px;   
     cursor: pointer;
+    
 }
 .card-e img{
           height: 283px;
           width: 230px;
-      margin: 30px;
-      margin-top: 110px;  
+      margin: 30px; 
+      margin-top: 20px;  
 }
 .card-e img:hover{
-    /* opacity: 0.3 ; */
+
     filter: brightness(50%);
-   /* mix-blend-mode:saturation; */
    cursor: pointer;
 }
+.b-e img{
+    width:70%;
+    height:70%;
+  }
 
 .card-e h4{
     position: relative;
@@ -303,8 +339,8 @@ margin-right: 120px;
 }
 
 .setence-drs{
-    margin-bottom: 100px;
-    margin-top: 200px;
+    /* margin-bottom: 100px; */
+    margin-top: 200px; 
 }
 .point {
   position: relative;
@@ -313,10 +349,10 @@ margin-right: 120px;
 
 } 
 .line{
-    /* position: relative;
+     position: relative;
     top: 8px;
-    right: 100px;
-    width: 1340px; */
+    right: 10px;
+    width: 100%; 
 }
 .sentence-dr{
     margin-top: 80px;
@@ -333,6 +369,7 @@ margin-right: 120px;
 }
 .fin {
     padding-top: 40px;
+    transform:scale(0.9);
     background: transparent;
     border-radius: 4px;
     position: relative;
@@ -466,4 +503,192 @@ margin-top: 110px;
 }
 .whole-e{
     margin-bottom: 200px;
+    transform:scale(0.9);
 }
+
+@media(max-width:1404px){
+    .res-erp{
+        height: auto;
+        padding-bottom: 50px;
+      }
+}
+@media (max-width: 1360px) {
+    .erp-blog-e {
+      transform: scale(0.9);
+    }
+  }
+  @media (max-width: 1272px) {
+    .erp-blog-e {
+      transform: scale(1);
+    }
+    .image-erp-e img {
+      height: 30rem;
+     
+    }
+    .line{
+        width: 100%;
+    }
+    .whole-e{
+        width: 100%;
+    }
+  
+}
+
+@media (max-width: 1242px) {
+    .image-erp-e img {
+      height: 28rem;
+    }
+    .about-erp-e h6 {
+      transform: scale(0.8);
+    }
+    .about-erp-e h2 {
+      line-height: 53 px;
+      margin: 10px 0;
+    }
+    .line{
+        width: 100%;
+    }
+    .whole-e{
+        width: 100%;
+    }
+    .indst{
+        
+        display: flex-none;
+    }
+  }
+
+  @media (max-width: 1172px) {
+    .image-erp-e img {
+      height: 28rem;
+    }
+    .about-erp-e h6 {
+      transform: scale(0.8);
+      padding: 0 0;
+    }
+    .about-erp-e h2 {
+      line-height: 53 px;
+      margin: 10px 0;
+    }
+    .line{
+        width: 100%;
+    }
+    .whole-e{
+        width: 100%;
+    }
+    .indst{
+       
+        display: flex-none;
+    }
+
+  }
+  @media (max-width: 1040px) {
+    .image-erp-e img {
+      height: 25rem;
+      margin: 0 -2rem 0 2rem;
+    }
+    .about-erp-e h6 {
+      transform: scale(0.8);
+      margin: 0 1rem;
+      padding: 0 0;
+    }
+    .about-erp-e h2 {
+      line-height: 53 px;
+      margin: 10px 0;
+    }
+    .line{
+        width: 100%;
+    }
+    .whole-e{
+        width: 100%;
+    }
+    .indst{
+        
+        display: flex-none;
+    }
+  
+  }
+ @media (max-width: 884px) {
+    .erp-blog-e {
+      flex-direction: column-reverse;
+      height: auto;
+    }
+    .image-erp-e img {
+      height: 30rem;
+      margin: 0;
+      margin-bottom: 5rem;
+      padding: 0;
+    }
+    .about-erp-e h6 {
+      transform: scale(0.8);
+      padding: 0;
+    }
+    .about-erp-e h2{
+      line-height: 53 px;
+      margin: 0 0;
+    }
+    .line{
+        width: 100%;
+    }
+    .whole-e{
+        width: 100%;
+    }
+    .indst{
+       
+        display: flex-none;
+    }
+    .erp-description-e{
+        text-align: center;
+        margin-right: 0px;
+        width: auto;
+    }
+    #dsc-erp{
+        font-family: 'Poppins', sans-serif;
+        padding-top: 10px;
+        font-size: 37px;
+        font-weight: 600px;
+    }
+  }
+ @media (max-width: 560px) {
+    .image-erp-e img {
+      height: 25rem;
+      margin: 0;
+      margin-bottom: 5rem;
+    }
+    .about-erp-e h6 {
+      transform: scale(0.8);
+      padding: 0 0;
+    }
+    .line{
+        width: 100%;
+    }
+    .whole-e{
+        width: 100%;
+    }
+    .indst{
+        
+        display: flex-none;
+    }
+  }
+
+    @media (max-width: 465px) {
+        .image-erp-e img {
+          height: 20rem;
+          margin: 0;
+          margin-bottom: 5rem;
+        }
+        .about-erp-e h6 {
+          transform: scale(0.8);
+          padding: 0 0;
+          width: 400px;
+          margin-right: 35px;
+        }
+        .line{
+            width: 100%;
+        }
+        .whole-e{
+            display: none;
+        flex-direction: column-reverse;
+        display: flex-none;
+        }
+       
+      }

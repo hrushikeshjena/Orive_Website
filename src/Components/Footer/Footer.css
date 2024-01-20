@@ -41,7 +41,7 @@
     transform: scale(0.9);
 }
 .footer-logo{
-    height: 60px;
+    height: 55px;
     background-color: white;
     border-radius: 5px;
     padding: 8px;
@@ -111,7 +111,7 @@
 }
 @media(max-width:1242px){
     .footer-logo{
-        height: 55px;
+        height: 40px;
     }
 }
 @media(max-width:1150px){

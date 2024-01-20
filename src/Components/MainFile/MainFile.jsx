@@ -25,7 +25,7 @@ const MainFile = () => {
               <img src={instagram} />
             </div>
           </div>
-          <div className="bigheader">
+          <div className="bigheader" id="header-big">
             <h1>Affordable Big IT & Technology Solutions</h1>
             <div className="paragraph">
               <p>
